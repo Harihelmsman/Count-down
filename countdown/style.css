@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Poppins:ital,wght@0,300;1,300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("pexels-jill-wellington-3334355.jpg");
+  color: #fff;
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  gap: 30px;
+}
+.header {
+  font-size: 50px;
+  margin-top: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.box {
+  size: 35px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  border-radius: 10px;
+  padding: 1.5px;
+  width: fit-content;
+}
+@media (min-width: 576px) {
+  p {
+    font-size: 18px;
+  }
+  .header {
+    font-size: 80px;
+    margin-top: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+}
+@media (min-width: 768px) {
+  p {
+    font-size: 25px;
+  }
+  .header {
+    font-size: 140px;
+    margin-top: 30px;
+    font-family: "Dancing Script", cursive;
+  }
+}
